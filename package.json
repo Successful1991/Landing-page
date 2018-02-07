@@ -1,0 +1,23 @@
+{
+  "name": "facility_test_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "normalize.css": "^7.0.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "description": ""
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app/css/normalize.css">
+    <link rel="stylesheet" href="app/css/slick.css">
+    <link rel="stylesheet" href="app/css/mu_style.css">
+	<title>test</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row menu">
+            <div class="logo">
+                <button class="menu-toggle" onclick="">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span></button>
+                <img src="app/img/logo.svg" alt="" class="logo__img">
+                <p class="logo__text">facility test</p>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li class="logo__mobile">facility test</li>
+                    <li class="mobile__close popup__close close"></li>
+                    <li><a class="navigation__link" href="#">full slider</a></li>
+                    <li><a class="navigation__link" href="#slider">mini slider</a></li>
+                    <li><a class="navigation__link" href="#columns">columns</a></li>
+                    <li><a class="navigation__link" href="#article">article</a></li>
+                    <li><a class="navigation__link" href="#map">map</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="sl__slider">
+            <div class="sl__img" id="img1">
+                <img src="app/img/slider3.jpg" alt="">
+                <div class="sl__img1">
+                    <h1>full slider</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Alias at consectetur cumque dignissimos,
+                        dolorem doloremque dolores eaque incidunt itaque libero maiores,
+                        minima minus necessitatibus nesciunt nostrum pariatur, quidem vero vitae.</p>
+                    <input type="button" class="sl__button" value="popup" id="popup">
+                </div>
+            </div>
+            <div class="sl__img" id="img2">
+                <img src="app/img/slider2.jpg" alt="">
+            </div>
+            <div class="sl__img" id="img3">
+                <img src="app/img/slider.jpg" alt="" >
+            </div>
+        </div>
+    <div class="popup__fon"></div>
+    <div class="popup">
+            <div class="popup__close closed"></div>
+            <p>This is popup</p>
+            <input type="text" class="popap__user" id="user__name" placeholder="Your name">
+            <input type="email" class="popap__user" id="user__mail" placeholder="Your e-mail">
+            <input type="button" class="button__close send" value="submit">
+        </div>
+    <div class="popup__desktop">
+            <div class="popup__close closed"></div>
+            <p>This is popup</p>
+            <input type="button" class="button__close closed" value="close">
+        </div>
+
+</header>
+
+<section class="miniSlider" id="slider">
+    <div class="title__h2">mini slider</div>
+    <div class="sl__multiple">
+        <div><img class="multiple__img" align="center" src="app/img/slider2.jpg" alt=""></div>
+        <div><img class="multiple__img" src="app/img/slider.jpg" alt=""></div>
+        <div><img class="multiple__img" src="app/img/slider3.jpg" alt=""></div>
+        <div><img class="multiple__img" src="app/img/slider2.jpg" alt=""></div>
+    </div>
+</section>
+<section>
+		<div class="columns" id="columns">
+            <div class="title__h2">columns</div>
+            <div class="columns__1">
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                        Commodi distinctio doloribus dolorum eveniet iure modi obcaecati
+                    </p>
+                </div>
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                        Commodi distinctio doloribus dolorum eveniet iure modi
+                        obcaecati optio perferendis sed voluptatem.
+                        Aut, consectetur, ullam? Saepe.
+                    </p>
+                </div>
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                        Commodi distinctio doloribus dolorum eveniet iure modi
+                        obcaecati optio perferendis sed voluptatem.
+                    </p>
+                </div>
+            </div>
+            <div class="columns__2">
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                        Commodi distinctio doloribus dolorum eveniet iure modi obcaecati
+                        optio perferendis sed voluptatem.
+                        Aut, consectetur, ullam? Saepe.
+                    </p>
+                </div>
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                    </p>
+                </div>
+                <div class="columns__block">
+                    <p class="block__title">Title lorem ipsum</p>
+                    <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus aspernatur harum id placeat velit.
+                        Commodi distinctio doloribus dolorum eveniet iure modi obcaecati
+                        optio perferendis sed voluptatem.
+                        Aut, consectetur, ullam? Saepe.</p>
+                </div>
+            </div>
+		</div>
+	</section>
+<section id="article">
+		<div class="article">
+			<h2 class="title__h2">article</h2>
+			<h3 class="article__h3">title h3</h3>
+			<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+				dolore ea eaque explicabo natus nihil porro ullam.</br>
+				Aliquid debitis deserunt dolore ducimus earum eligendi et ex exercitationem expedita facilis fugit illo
+				laborum nesciunt odio officia omnis perferendis possimus quod recusandae, repudiandae,
+				sequi similique velit. <b>Amet aspernatur</b> dolorem esse, exercitationem explicabo,
+				harum ipsum laborum laudantium minus modi nisi repellendus tempora voluptate? Ab placeat,
+				reprehenderit! Ab aliquid aspernatur, consequatur deserunt distinctio doloribus eos,
+				explicabo illo, molestiae <u><a href="#">mollitia natus nobis</a></u>
+				perspiciatis quaerat quo sint tempore ullam vitae.</p>
+			<h3 class="article__h3">title h3</h3>
+			<p class="article__p">Aliquam asperiores, <i>blanditiis earum ipsam maxime</i> nobis odio optio
+				recusandae repellendus reprehenderit rerum saepe sapiente similique,
+				totam voluptas! Autem dolores omnis quas sed! Aut beatae consequatur
+				<u> dicta est illum incidunt</u> obcaecati officiis placeat, quidem,
+				sapiente ullam voluptatum. Id, impedit nesciunt?<br>
+				Atque cum cumque, dolores ducimus ea et expedita id illo incidunt,
+				iusto nam non nostrum omnis perspiciatis quisquam repellat
+				reprehenderit saepe sequi sint tempore ullam velit.</p>
+		</div>
+	</section>
+<footer>
+        <div id="map"></div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="app/js/slick.min.js"></script>
+<script type="text/javascript" src="app/js/map.js"></script>
+<script type="text/javascript" src="app/js/index.js"></script>
+<script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrUcTar2ARlRKSogEQVIlWaPnmVIM_xVE&callback=initMap">
+</script>
+</body>
+</html>

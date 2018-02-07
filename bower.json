@@ -1,0 +1,18 @@
+{
+  "name": "test_task",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/libs"
+  ],
+  "authors": [
+    "Tsys Artem <19successful91@gmail.com>"
+  ]
+}
